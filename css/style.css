@@ -90,4 +90,29 @@ li::before{
     font-size: 12px;
     border: 1px solid;
     border-radius: 10px;
+    background-color: #45ABEA;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+#violet{
+    background-color: #9C72E4;
+}
+
+#lightgreen{
+    background-color: #65C1AA;
+}
+
+#orange{
+    background-color: #F29E33;
+}
+
+#pink{
+    background-color: #D863A1;
+}
+
+#green{
+    background-color: #B0C926;
 }
