@@ -6,10 +6,21 @@
 
 body{
     background-color:  #F6F8F9;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
     background-color: white;
+    padding: 10px 20px;
+}
+
+#logo, h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1{
+    font-weight: 700;
 }
 
 #container{
@@ -26,10 +37,10 @@ header{
 }
 
 .list{
-    height: 200px;
     background-color: white;
-    margin-top: 50px;
+    margin: 20px 30px;
     border-radius: 5px;
+    padding: 10px 10px
 }
 
 button{
@@ -40,9 +51,41 @@ button{
     padding: 5px;
     background-color: #47ADF1;
     cursor: pointer;
+    display: inline-block;
 }
+
 
 button:last-child{
     background-color: white;
-    color: grey;
+    color: darkgrey;
+}
+
+h2, h3, h4{
+    font-size: 16px;
+    display: inline-block;
+}
+
+span{
+    display: inline-block;
+    vertical-align: sub;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li::before{
+    content: '\2713';
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.check-x::before{
+    content: '\00D7';
+    border: 1px solid red;
+    color: red;
+}
+
+.label{
+    display: inline-block;
 }
