@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0;                  
+    padding: 0;                           /*reset*/
     box-sizing: border-box;
 }
 
@@ -10,17 +10,20 @@ body{
 }
 
 header{
-    background-color: white;
-    padding: 10px 20px;
+    background-color: white;          /*logo intestazione*/
+    padding: 10px 20px;                    
 }
-
 #logo, h1{
     display: inline-block;
     vertical-align: middle;
 }
 
+li{
+    font-weight: 550;
+}
+
 h1{
-    font-weight: 700;
+    font-weight: 800;
 }
 
 #container{
@@ -48,7 +51,7 @@ button{
     border-radius: 4px;
     font-size: 10px;
     color: white;
-    padding: 5px;
+    padding: 5px;                          /*layout pulsanti*/
     background-color: #47ADF1;
     cursor: pointer;
     display: inline-block;
@@ -61,8 +64,8 @@ button:last-child{
 }
 
 h2, h3, h4{
-    font-size: 16px;
-    display: inline-block;
+    font-size: 18px;                 /*formattazione titoli*/
+    display: inline-block;               
 }
 
 span{
@@ -71,7 +74,7 @@ span{
 }
 
 ul{
-    list-style-type: none;
+    list-style-type: none;           /*eliminazione punti lista*/
 }
 
 li::before{
@@ -90,7 +93,7 @@ li::before{
     font-size: 12px;
     border: 1px solid;
     border-radius: 10px;
-    background-color: #45ABEA;
+    background-color: #45ABEA;             /*layout etichette*/
     color: white;
     font-size: 10px;
     padding: 5px;
@@ -115,4 +118,8 @@ li::before{
 
 #green{
     background-color: #B0C926;
+}
+
+section{
+    padding: 15px;
 }
