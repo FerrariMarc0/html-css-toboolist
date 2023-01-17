@@ -4,4 +4,45 @@
     box-sizing: border-box;
 }
 
-font-family: 'Roboto', sans-serif;
+body{
+    background-color:  #F6F8F9;
+}
+
+header{
+    background-color: white;
+}
+
+#container{
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+.navbar{
+    height: 40px;
+    border-bottom: 2px solid #F6F8F9;
+    padding: 10px 40px;
+}
+
+.list{
+    height: 200px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    background-color: #47ADF1;
+    cursor: pointer;
+}
+
+button:last-child{
+    background-color: white;
+    color: grey;
+}
